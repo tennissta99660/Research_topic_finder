@@ -1,0 +1,62 @@
+[
+  {
+    "name": "device_technology_emergence",
+    "description": "Measures the maturity and material class of the power semiconductor devices utilized in the research.",
+    "low": "Relies exclusively on mature silicon-based devices such as standard IGBTs or Si MOSFETs.",
+    "high": "Focuses on wide-bandgap or emerging material devices such as SiC, GaN, Ga2O3, or diamond semiconductors."
+  },
+  {
+    "name": "experimental_validation_depth",
+    "description": "Indicates the extent of physical hardware verification versus theoretical or simulation-only analysis.",
+    "low": "Purely analytical derivation or simulation-based study without hardware implementation.",
+    "high": "Comprehensive hardware prototype validation including measured waveforms, efficiency curves, and dynamic response data."
+  },
+  {
+    "name": "power_rating_scale",
+    "description": "Characterizes the magnitude of power processing handled by the proposed system or component.",
+    "low": "Micro-watt to watt-level power handling typical of IoT, RF, or sensor node applications.",
+    "high": "Kilowatt to megawatt-scale power handling typical of industrial drives, traction, or grid infrastructure."
+  },
+  {
+    "name": "switching_frequency_regime",
+    "description": "Denotes the operational switching frequency range of the power converter topology.",
+    "low": "Operation at mains frequency (50/60 Hz) or low kilohertz ranges.",
+    "high": "High-frequency operation in the megahertz range enabling high power density or RF applications."
+  },
+  {
+    "name": "control_strategy_complexity",
+    "description": "Assesses the sophistication of the control algorithms employed for regulation and modulation.",
+    "low": "Linear control techniques such as standard PI/PD loops or basic hysteresis control.",
+    "high": "Advanced non-linear, model-predictive, sliding-mode, adaptive, or data-driven/AI-based control algorithms."
+  },
+  {
+    "name": "system_abstraction_level",
+    "description": "Describes the hierarchical layer of the power electronics stack addressed by the research.",
+    "low": "Device-level focus including gate-driver design, parasitic extraction, or module packaging/thermal analysis.",
+    "high": "System-level focus including grid integration, microgrid dispatch, or fleet-level energy management."
+  },
+  {
+    "name": "topology_structural_complexity",
+    "description": "Evaluates the architectural intricacy of the power converter circuit topology.",
+    "low": "Basic hard-switching two-level topologies such as Buck, Boost, or Flyback converters.",
+    "high": "Complex multi-level, resonant, matrix, solid-state transformer, or multi-port hybrid architectures."
+  },
+  {
+    "name": "loss_analysis_granularity",
+    "description": "Measures the depth of quantitative analysis regarding power losses and thermal performance.",
+    "low": "Efficiency reported as a single aggregate metric or loss mechanisms are not explicitly analyzed.",
+    "high": "Detailed quantitative loss breakdown (conduction/switching), thermal modeling, or explicit soft-switching mechanism verification."
+  },
+  {
+    "name": "implementation_digitalization",
+    "description": "Indicates whether the solution emphasizes analog hardware implementation or digital algorithmic execution.",
+    "low": "Analog circuit implementation, discrete component design, or hardware-centric focus.",
+    "high": "Digital implementation via FPGA/DSP, algorithm-centric development, or digital twin simulation focus."
+  },
+  {
+    "name": "application_domain_narrowness",
+    "description": "Reflects how tightly the research is constrained to a specific application versus general-purpose utility.",
+    "low": "General-purpose converter theory or topology with broad applicability across multiple domains.",
+    "high": "Highly specific application constraints such as aerospace propulsion, medical MRI power supplies, or specific EV traction standards."
+  }
+]
