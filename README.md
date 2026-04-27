@@ -44,6 +44,8 @@ graph TB
 ## Quick Start
 
 ```bash
+git clone https://github.com/tennissta99660/Research_topic_finder.git
+
 cd cartograph
 
 # 1. Install dependencies
