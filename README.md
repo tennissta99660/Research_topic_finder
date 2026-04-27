@@ -181,17 +181,7 @@ All LLM calls will route through the Cloudflare tunnel to your Lightning AI GPU.
 | **Cloudflare timeout** | Free tunnels have a ~100s timeout — keep `max_tokens` reasonable to stay under |
 | **Free tier GPU hours** | Lightning AI offers ~22 GPU hours/month free |
 
-### Recommended Models by GPU VRAM
 
-| GPU VRAM | Best Model | Disk Size |
-|----------|-----------|-----------|
-| 8 GB (local, e.g. RTX 5050) | `qwen3:8b` | ~5 GB |
-| 16 GB (T4) | `qwen3:14b` | ~9 GB |
-| 24 GB (A10G) | `qwen3:32b` | ~20 GB |
-| 48 GB+ (A100) | `qwen3:72b` | ~45 GB |
-| 80 GB+ (H100) | `qwen3:110b` | ~65 GB |
-
----
 
 ## Two-Tier Dimension System
 
