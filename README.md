@@ -1,4 +1,4 @@
-# 🗺️ CARTOGRAPH v2 — Multi-Layer GraphRAG Research Navigator
+# Graph-Based Research Paper Retrieval System 
 
 A two-tier, 50-dimension knowledge graph system for navigating research landscapes. Ingests papers from arXiv, scores them across global + topic-specific dimensions using LLMs, builds multi-layer graphs, and enables adaptive retrieval with gap analysis.
 
